@@ -1,16 +1,16 @@
-# 🔁 Single Clock FIFO in Verilog
+# Single Clock FIFO in Verilog
 
 A simple and efficient **Single Clock FIFO (First-In-First-Out)** buffer implemented in Verilog. This FIFO supports synchronous read/write operations using a single clock and handles data storage with a depth of 64 bytes.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a 64-depth FIFO memory buffer using a single clock domain. It is useful in digital systems for buffering data between producer and consumer logic blocks running on the same clock.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 64-byte deep FIFO (`buf_mem [63:0]`)
 - 8-bit data width
